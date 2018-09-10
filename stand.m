@@ -109,10 +109,16 @@ end
     end
 end
 
-if casino<0
-    text = ['Congratulations - you have beaten the casino!'];
-    disp(text)
-    disp([' ';' '])
+if casino<1
+    if debt<0
+        casino = pot;
+        pot = 0;
+        disp(['Think you can pull that one eh? Think again.'])
+    else
+       text = ['congratulations - you have beaten the casino!'];
+       disp(text)
+       disp([' '])
+    end
 end
 
 hand = [];
