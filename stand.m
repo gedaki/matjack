@@ -2,7 +2,7 @@
 yourhand = handt;
 disp(['You: ' num2str(yourhand)])
 if handt> 21
-   text = ['BUST! You lost ' num2str(realbet + bet2) '. You have' num2str(pot) ' remaining.'];
+   text = ['BUST! You lost ' num2str(realbet + bet2) '. You have ' num2str(pot) ' remaining.'];
    disp(text)
    casino = casino + realbet + bet2;
    disp([' ';' '])
@@ -114,5 +114,11 @@ if casino<0
     disp(text)
     disp([' ';' '])
 end
+
+hand = [];
+yourhand = [];
+handt = 0;
+dealert= 0;
+
     
         

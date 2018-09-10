@@ -31,7 +31,7 @@ realbet = bet;
 if bet > pot
     
     if eyes>0
-        text = ['Not enough in pot. Do you wish to take out a loan?'];
+        text = ['Not enough money. Change your bet or take out a loan.'];
         disp(text)
         disp([' '])
     else
@@ -67,9 +67,10 @@ else
 
             if isace>0
                 if isten>0
-                    yourhand = handt + 10
-                    pot = pot + (bet*2.5)
-                    text = ['Blackjack! You won ' numstr(realbet*2.5) '! You have ' num2str(pot) ' remaining.'];
+                    yourhand = handt + 10;
+                    pot = pot + (bet*2.5);
+                    disp(['You: ' num2str(yourhand)])
+                    text = ['Blackjack! You won ' num2str(realbet*2.5) '! You have ' num2str(pot) ' remaining.'];
                     disp(text)
                     casino = casino - (realbet*2.5);
                     disp([' ';' '])

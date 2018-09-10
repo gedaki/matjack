@@ -23,6 +23,8 @@ disp(['To change your bet, enter "bet = " before a draw, followed by the amount 
 disp([' '])
 disp(['Type "deal" to draw your first hand.'])
 disp([' '])
+disp(['Type "ace" to play an ace.'])
+disp([' '])
 disp(['Type "hit" to take draw another card and "ddown" to double down.'])
 disp([' '])
 disp(['Type "stand" if you wish to stick with your hand. The dealer with then draw a hand.'])
