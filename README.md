@@ -7,3 +7,5 @@ Make sure all the .m file are in the working directory.
 For maximum enjoyment maximise the command window and minimise the workspace (and don't cheat).
 
 To begin, type "start" in the command window. Instructions will be displayed there.
+
+*10/09/18 fixed some bugs*
